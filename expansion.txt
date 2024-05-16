@@ -7,3 +7,4 @@ playlists, collaborative playlistsand real-time listening with friends.
 Podcast Support: Since Spotify has been expanding its content to include podcasts, consider 
 integrating podcast support into your platform . Allow users to discover, subscribe to, and listen to 
 podcasts seamlessly alongside music.
+Offline Mode: Implement offline mode functionality so users can download music and podcasts for 
