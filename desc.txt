@@ -15,3 +15,4 @@ Playlists: Users can create, edit, and delete custom playlists to organize their
 Music Player: An integrated music player with controls for play, pause, skip, and volume 
 adjustment.
 Now Playing: A dedicated section that displays the currently playing track, along with album 
+artwork and artist information.
