@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Warriyoo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Ciela- Huma-Huma", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Wariyoo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Ciela- huma-huma", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
     {songName: "DEAF KEV - Invincible [NCS Release]-320k", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
     {songName: "Different Heaven & EH!DE - My Heart [NCS Release]", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Janji-Heroes-Tonight-feat-Johnning-NCS-Release", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Rabba - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Sakhiyaan - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Bhula Dena - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Tumhari Kasam - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Na jana ve maahiya- Salam-e-Ishq", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Jaanji-Heroes-Tonight-feat-ohnning-NCS-Release", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Rabba - salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Sakhiyaan - salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Bhula Dena - salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
+    {songName: "tumhari kasam - salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Na jana ve maahiyaa- salam-e-Ishq", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
@@ -32,14 +32,14 @@ songItems.forEach((element, i)=>{
 masterPlay.addEventListener('click', ()=>{
     if(audioElement.paused || audioElement.currentTime<=0){
         audioElement.play();
-        masterPlay.classList.remove('fa-play-circle');
-        masterPlay.classList.add('fa-pause-circle');
+        masterPlay.classList.remove('fa-Play-circle');
+        masterPlay.classList.add('fa-Pause-circle');
         gif.style.opacity = 1;
     }
     else{
         audioElement.pause();
-        masterPlay.classList.remove('fa-pause-circle');
-        masterPlay.classList.add('fa-play-circle');
+        masterPlay.classList.remove('fa-Pause-circle');
+        masterPlay.classList.add('fa-Play-circle');
         gif.style.opacity = 0;
     }
 })
@@ -56,8 +56,8 @@ myProgressBar.addEventListener('change', ()=>{
 
 const makeAllPlays = ()=>{
     Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
-        element.classList.remove('fa-pause-circle');
-        element.classList.add('fa-play-circle');
+        element.classList.remove('fa-Pause-circle');
+        element.classList.add('fa-Play-circle');
     })
 }
 
@@ -65,15 +65,15 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
     element.addEventListener('click', (e)=>{ 
         makeAllPlays();
         songIndex = parseInt(e.target.id);
-        e.target.classList.remove('fa-play-circle');
-        e.target.classList.add('fa-pause-circle');
+        e.target.classList.remove('fa-Play-circle');
+        e.target.classList.add('fa-Pause-circle');
         audioElement.src = `songs/${songIndex+1}.mp3`;
         masterSongName.innerText = songs[songIndex].songName;
         audioElement.currentTime = 0;
         audioElement.play();
         gif.style.opacity = 1;
-        masterPlay.classList.remove('fa-play-circle');
-        masterPlay.classList.add('fa-pause-circle');
+        masterPlay.classList.remove('fa-Play-circle');
+        masterPlay.classList.add('fa-Pause-circle');
     })
 })
 
@@ -88,8 +88,8 @@ document.getElementById('next').addEventListener('click', ()=>{
     masterSongName.innerText = songs[songIndex].songName;
     audioElement.currentTime = 0;
     audioElement.play();
-    masterPlay.classList.remove('fa-play-circle');
-    masterPlay.classList.add('fa-pause-circle');
+    masterPlay.classList.remove('fa-Play-circle');
+    masterPlay.classList.add('fa-Pause-circle');
 
 })
 
@@ -104,6 +104,6 @@ document.getElementById('previous').addEventListener('click', ()=>{
     masterSongName.innerText = songs[songIndex].songName;
     audioElement.currentTime = 0;
     audioElement.play();
-    masterPlay.classList.remove('fa-play-circle');
-    masterPlay.classList.add('fa-pause-circle');
+    masterPlay.classList.remove('fa-Play-circle');
+    masterPlay.classList.add('fa-Pause-circle');
 })
