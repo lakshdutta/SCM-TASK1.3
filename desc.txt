@@ -1,1 +1,3 @@
 Project Description: Spotify Clone
+Overview
+Our Spotify Clone is a web-based music streaming application that mimics the core features and 
