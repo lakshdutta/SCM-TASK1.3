@@ -111,7 +111,4 @@ document.getElementById('previous').addEventListener('click', ()=>{
 if(songIndex<=0){
     songIndex = 0
 }
-else{
-    songIndex -= 1;
-}
-audioElement.src = `songs/${songIndex+1}.mp3`;
+else
