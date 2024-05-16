@@ -22,3 +22,4 @@ Technologies Used
 HTML: For structuring the web application and defining its content.
 CSS: For styling the application, ensuring it has an attractive and consistent appearance across
 different devices.
+JavaScript: For adding interactivity to the application, managing user inputs, and handling the 
