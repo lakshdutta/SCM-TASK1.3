@@ -12,3 +12,4 @@ offline listening. This feature is essential for users who travel frequently or 
 connectivity.
 Lyrics Integration: Partner with lyric databases or develop your own lyrics feature to display 
 synchronized lyrics alongside songs. This enhances the listening experience and provides 
+additional value to users.
