@@ -108,4 +108,3 @@ document.getElementById('previous').addEventListener('click', ()=>{
     masterPlay.classList.add('fa-Pause-circle');
     audioElement.currentTime = 0;
 })
-if(son
