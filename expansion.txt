@@ -8,4 +8,4 @@ Podcast Support: Since Spotify has been expanding its content to include podcast
 integrating podcast support into your platform . Allow users to discover, subscribe to, and listen to 
 podcasts seamlessly alongside music.
 Offline Mode: Implement offline mode functionality so users can download music and podcasts for 
-offline listening. This feature is essential for users who travel frequently or have limited internet 
+offline listening. This feature is essential for users who travel frequently or have limited internet .
