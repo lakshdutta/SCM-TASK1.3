@@ -13,3 +13,4 @@ Search Functionality: A powerful search feature that allows users to find specif
 or artists quickly.
 Playlists: Users can create, edit, and delete custom playlists to organize their favorite tracks.
 Music Player: An integrated music player with controls for play, pause, skip, and volume 
+adjustment.
