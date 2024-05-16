@@ -112,6 +112,4 @@ document.getElementById('previous').addEventListener('click', ()=>{
     audioElement.currentTime = 0;
     audioElement.play();
     masterPlay.classList.remove('fa-Play-circle');
-    masterPlay.classList.add('fa-Pause-circle');
-    audioElement.currentTime = 0;
 })
