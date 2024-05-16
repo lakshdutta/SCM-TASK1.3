@@ -6,3 +6,4 @@ aims to deliver a seamless and intuitive experience for users to search, play, a
 favorite music tracks.
 Key Features
 User Interface: A clean and modern UI inspired by Spotify, featuring responsive design elements 
+to ensure compatibility across various devices and screen sizes
