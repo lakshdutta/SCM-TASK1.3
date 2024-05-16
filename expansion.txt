@@ -5,4 +5,4 @@ Social Integration: Allow users to connect with friends, follow their playlists,
 recommendations. You could expand this further by integrating social features like commenting on 
 playlists, collaborative playlistsand real-time listening with friends.
 Podcast Support: Since Spotify has been expanding its content to include podcasts, consider 
-integrating podcast support into your platform .
+integrating podcast support into your platform . Allow users to discover, subscribe to, and listen to 
