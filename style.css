@@ -70,12 +70,12 @@ nav ul li{
 }
 
 #myProgressBar{
-    width: 80vw; 
+    width: 81vw; 
     cursor: pointer;
 }
 
 .songItemContainer{
-    margin-top: 74px;
+    margin-top: 72px;
 }
 
 .songItem{
