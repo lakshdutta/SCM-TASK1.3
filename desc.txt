@@ -16,3 +16,4 @@ Music Player: An integrated music player with controls for play, pause, skip, an
 adjustment.
 Now Playing: A dedicated section that displays the currently playing track, along with album 
 artwork and artist information.
+User Authentication: Basic user authentication to enable personalized experiences, such as 
