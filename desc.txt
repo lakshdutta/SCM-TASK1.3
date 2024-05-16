@@ -11,3 +11,4 @@ Music Library: A comprehensive music library where users can browse through diff
 artists, and albums.
 Search Functionality: A powerful search feature that allows users to find specific tracks, albums, 
 or artists quickly.
+Playlists: Users can create, edit, and delete custom playlists to organize their favorite tracks.
