@@ -19,3 +19,4 @@ artwork and artist information.
 User Authentication: Basic user authentication to enable personalized experiences, such as 
 saving playlists and track preferences.
 Technologies Used
+HTML: For structuring the web application and defining its content.
