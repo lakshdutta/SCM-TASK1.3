@@ -8,3 +8,4 @@ Key Features
 User Interface: A clean and modern UI inspired by Spotify, featuring responsive design elements 
 to ensure compatibility across various devices and screen sizes
 Music Library: A comprehensive music library where users can browse through different genres
+artists, and albums.
