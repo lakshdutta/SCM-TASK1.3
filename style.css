@@ -63,14 +63,14 @@ nav ul li{
 }
 
 .icons{
-    margin-top: 15px; 
+    margin-top: 14px; 
 }
 .icons i{
     cursor: pointer;
 }
 
 #myProgressBar{
-    width: 81vw; 
+    width: 82vw; 
     cursor: pointer;
 }
 
@@ -91,9 +91,9 @@ nav ul li{
 }
 
 .songItem img{
-    width: 43px;
+    width: 42px;
     margin: 0 23px;
-    border-radius: 34px;
+    border-radius: 33px;
 }
 
 .timestamp{
