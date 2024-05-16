@@ -24,7 +24,7 @@ let songs = [
 
 songItems.forEach((element, i)=>{ 
     element.getElementsByTagName("img")[0].src = songs[i].coverPath; 
-    element.getElementsByClassName("songName")[0].innerText = songs[i].songName; 
+    element.getElementsByClassName("songNamee")[0].innerText = songs[i].songName; 
 })
  
 
@@ -32,7 +32,7 @@ songItems.forEach((element, i)=>{
 masterPlay.addEventListener('click', ()=>{
     if(audioElement.paused || audioElement.currentTime<=0){
         audioElement.play();
-        masterPlay.classList.remove('fa-play-circle');
+        masterPlay.classList.remove('fa-Play-circle');
         masterPlay.classList.add('fa-pause-circle');
         gif.style.opacity = 1;
     }
