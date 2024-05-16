@@ -10,13 +10,13 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Warriyoo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Warriyo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
     {songName: "Ciela- huma-huma", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
     {songName: "DEAF Kev - Invincible [NCS Release]-320k", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
     {songName: "Different Heaven & EH!DE - My Heart [NCS Release]", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
     {songName: "Jaanji- Heroes-Tonight-feat-ohnning-NCS-Release", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
     {songName: "Rabba - salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Sakhiyan - salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Sakhiyaan - salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
     {songName: "Bhula dena - salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
     {songName: "tumhari kasam - salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
     {songName: "Na jana ve mahiya- salam-e-Ishq", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
