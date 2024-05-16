@@ -11,3 +11,4 @@ Offline Mode: Implement offline mode functionality so users can download music a
 offline listening. This feature is essential for users who travel frequently or have limited internet .
 connectivity.
 Lyrics Integration: Partner with lyric databases or develop your own lyrics feature to display 
+synchronized lyrics alongside songs. This enhances the listening experience and provides 
