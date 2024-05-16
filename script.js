@@ -92,6 +92,7 @@ document.getElementById('next').addEventListener('click', ()=>{
     masterPlay.classList.add('fa-pause-circle');
 
 })
+//Adding event
 
 document.getElementById('previous').addEventListener('click', ()=>{
     if(songIndex<=0){
