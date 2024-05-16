@@ -108,7 +108,5 @@ document.getElementById('previous').addEventListener('click', ()=>{
     masterPlay.classList.add('fa-Pause-circle');
     audioElement.currentTime = 0;
     audioElement.src = `songs/${songIndex+1}.mp3`;
-    masterSongName.innerText = songs[songIndex].songName;
-    audioElement.currentTime = 0;
 
 })
