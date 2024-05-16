@@ -18,7 +18,7 @@ nav ul{
     align-items: center;
     list-style-type: none;
     height: 65px;
-    background-color: black;
+    background-color: rgb(143, 76, 76);
     color: white;
 }
 
@@ -54,8 +54,8 @@ nav ul li{
     position: sticky;
     bottom: 0;
     height: 130px;
-    background-color: black;
-    color: white;
+    background-color: rgb(18, 17, 17);
+    color: rgb(252, 244, 244);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,12 +70,12 @@ nav ul li{
 }
 
 #myProgressBar{
-    width: 80vw; 
+    width: 82vw; 
     cursor: pointer;
 }
 
 .songItemContainer{
-    margin-top: 74px;
+    margin-top: 72px;
 }
 
 .songItem{
@@ -91,13 +91,13 @@ nav ul li{
 }
 
 .songItem img{
-    width: 43px;
+    width: 42px;
     margin: 0 23px;
-    border-radius: 34px;
+    border-radius: 33px;
 }
 
 .timestamp{
-    margin: 0 23px;
+    margin: 0 24px;
 }
 
 .timestamp i{
