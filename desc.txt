@@ -5,3 +5,4 @@ user interface of the popular Spotify platform. Built using HTML, CSS, and JavaS
 aims to deliver a seamless and intuitive experience for users to search, play, and manage their 
 favorite music tracks.
 Key Features
+User Interface: A clean and modern UI inspired by Spotify, featuring responsive design elements 
