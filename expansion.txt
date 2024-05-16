@@ -10,3 +10,4 @@ podcasts seamlessly alongside music.
 Offline Mode: Implement offline mode functionality so users can download music and podcasts for 
 offline listening. This feature is essential for users who travel frequently or have limited internet .
 connectivity.
+Lyrics Integration: Partner with lyric databases or develop your own lyrics feature to display 
