@@ -3,3 +3,4 @@ Personalized Recommendations: Implement algorithms similar to Spotify's "Discove
 listening history, preferences, and behavior.
 Social Integration: Allow users to connect with friends, follow their playlists, and share music 
 recommendations. You could expand this further by integrating social features like commenting on 
+playlists, collaborative playlists
