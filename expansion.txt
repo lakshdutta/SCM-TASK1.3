@@ -1,3 +1,4 @@
 Personalized Recommendations: Implement algorithms similar to Spotify's "Discover Weekly" and.
 "Release Radar" to provide users with personalized playlists and recommendations based on their
 listening history, preferences, and behavior.
+Social Integration: Allow users to connect with friends, follow their playlists, and share music 
