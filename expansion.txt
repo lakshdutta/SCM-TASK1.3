@@ -1,1 +1,2 @@
 Personalized Recommendations: Implement algorithms similar to Spotify's "Discover Weekly" and.
+"Release Radar" to provide users with personalized playlists and recommendations based on their
