@@ -9,3 +9,4 @@ User Interface: A clean and modern UI inspired by Spotify, featuring responsive 
 to ensure compatibility across various devices and screen sizes
 Music Library: A comprehensive music library where users can browse through different genres
 artists, and albums.
+Search Functionality: A powerful search feature that allows users to find specific tracks, albums, 
