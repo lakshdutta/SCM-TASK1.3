@@ -20,3 +20,4 @@ User Authentication: Basic user authentication to enable personalized experience
 saving playlists and track preferences.
 Technologies Used
 HTML: For structuring the web application and defining its content.
+CSS: For styling the application, ensuring it has an attractive and consistent appearance across
